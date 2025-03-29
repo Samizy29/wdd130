@@ -1,106 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="About Us page for White Water Rafting company." />
-    <meta name="author" content="Your Name" />
-    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
-
-    <!-- Google Font Links -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet" />
-
-    <!-- Link to external CSS file -->
-    <link rel="stylesheet" href="styles/rafting.css" />
-
-    <title>About Us - White Water Rafting</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Water Rafting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <header>
-        <img src="images/logo.jpeg" alt="White Water Rafting Logo" />
-        <h1>White Water Rafting</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-purple-300 p-4 flex justify-between items-center">
+        <img src="images/logo.jpeg" alt="White Water Rafting Logo" class="w-16 h-16">
+        <nav class="space-x-4">
+            <a href="index.html" class="px-4 py-2 bg-white rounded hover:bg-gray-200">Home</a>
+            <a href="about.html" class="px-4 py-2 bg-white rounded hover:bg-gray-200">About Us</a>
+            <a href="trips.html" class="px-4 py-2 bg-white rounded hover:bg-gray-200">Trips</a>
+            <a href="contact.html" class="px-4 py-2 bg-white rounded hover:bg-gray-200">Contact Us</a>
         </nav>
     </header>
-    <main>
-        <div class="hero" style="background-image: url('images/hero-image.jpg');">
-            <h1>Welcome to Our Adventure</h1>
+
+    <!-- Hero Section -->
+    <section class="p-8 bg-white">
+        <h1 class="text-3xl font-bold text-center">White Water Rafting</h1>
+        <div class="flex justify-around items-center mt-6">
+            <p class="w-1/2 text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec,
+                mattis ac neque...
+            </p>
+            <div>
+                <img src="images/happy-client.avif" alt="Happy Client" class="w-40 h-40 text-center">
         </div>
-        <article>
-            <section class="about-company">
-                <h2>About Our Company</h2>
-                <img src="images/happy-client.avif" alt="Happy Client">
-                <p>
-                    Our mission is to provide thrilling and safe white water rafting experiences for adventurers of all
-                    levels.
-                </p>
-            </section>
-            <section class="history">
-                <h2>History</h2>
-                <div class="history-content">
-                    <div>
-                        <h3>Early Beginnings</h3>
-                        <p>Founded in 1990, our company has been delivering unforgettable rafting adventures for over
-                            three decades.</p>
-                    </div>
-                    <div>
-                        <h3>Our Growth</h3>
-                        <p>Through innovation and passion for the water, we’ve grown into one of the premier rafting
-                            companies.</p>
-                    </div>
-                </div>
-            </section>
-            <section class="adventures">
-                <h2>Adventure Awaits You!</h2>
-                <div class="adventure-gallery">
-                    <figure>
-                        <img src="images/rafting-1.jpeg" alt="Los Dientes del Diablo">
-                        <figcaption>Los Dientes del Diablo</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/rafting-2.jpeg" alt="Big Mallard">
-                        <figcaption>Big Mallard</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/rafting-3.jpeg" alt="Half Day Adventure">
-                        <figcaption>Half Day Adventure</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/rafting-4.jpeg" alt="Rapid Rush">
-                        <figcaption>Rapid Rush</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/rafting-5.jpeg" alt="Wild River">
-                        <figcaption>Wild River</figcaption>
-                    </figure>
-                </div>
-            </section>
-        </article>
-    </main>
-    <footer>
+    </section>
+
+    <!-- History Section -->
+    <section class="p-8 bg-gray-100">
+        <h2 class="text-2xl font-bold text-center">History</h2>
+        <div class="flex justify-center items-center gap-8 mt-6">
+            <p class="w-1/3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit...
+            </p>
+            <div>
+                <img src="images/rafting.jpeg" class="w-40 h-40 text-center"></div>
+            <p class="w-1/3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit...
+            </p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="p-8 bg-white">
+        <h3 class="text-2xl font-bold text-center">Adventure Awaits You</h3>
+        <div class="flex justify-around mt-6">
+            <figure class="w-24 h-24 bg-gray-300 text-center">
+                <img src="images/rafting-1.jpeg" alt="Exciting Rapids">
+                <figcaption>Exciting Rapids</figcaption>
+            </figure>
+            <figure class="w-24 h-24 bg-gray-300 text-center">
+                <img src="images/rafting-2.jpeg" alt="Scenic Views">
+                <figcaption>Scenic Views</figcaption>
+            </figure>
+            <figure class="w-24 h-24 bg-gray-300 text-center">
+                <img src="images/rafting-3.jpeg" alt="Teamwork">
+                <figcaption>Teamwork</figcaption>
+            </figure>
+            <figure class="w-24 h-24 bg-gray-300 text-center">
+                <img src="images/rafting-4.jpeg" alt="Thrilling Experience">
+                <figcaption>Thrilling Experience</figcaption>
+            </figure>
+            <figure class="w-24 h-24 bg-gray-300 text-center">
+                <img src="images/rafting-5.jpeg" alt="Unforgettable Memories">
+                <figcaption>Unforgettable Memories</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-purple-300 p-4 text-center">
         <p>&copy; 2025 White Water Rafting. Designed by Oni Samuel Akintola.</p>
-        <div class="social">
+        <div class="flex justify-center space-x-4 mt-2">
             <a href="https://facebook.com" target="_blank">
-                <img src="images/Facebook_logo.jpeg" alt="Facebook">
+                <img src="images/Facebook_logo.jpeg" alt="Facebook" class="w-8 h-8">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="images/Twitter-logo.jpeg" alt="Twitter">
+                <img src="images/Twitter-logo.jpeg" alt="Twitter" class="w-8 h-8">
             </a>
             <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram_logo.jpeg" alt="Instagram">
+                <img src="images/instagram_logo.jpeg" alt="Instagram" class="w-8 h-8">
             </a>
         </div>
     </footer>
