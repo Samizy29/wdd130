@@ -1,0 +1,64 @@
+/* Define CSS variables for the color scheme */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+    --accent-color-2: #f1c4df;
+    --highlight-color: #e4cc37;
+    --text-color: #333;
+    --background-color: #f9f9f9;
+}
+
+/* General styles */
+body {
+    font-family: 'open sans', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    width: 800px;
+}
+h1, h2, h3 {
+    font-family: 'roboto', sans-serif;
+    color: var(--primary-color);
+    padding: 0;
+}
+
+/* The following CSS selector (rule) removes underlines from all hyperlinks. Do not do this.*/
+a {
+    text-decoration: none;
+}
+ 
+.hero{
+    position: relative;
+}
+
+.hero article img{
+    width: 200px;
+
+}
+
+.hero img {
+    display : block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background with transparency */
+    padding: 10px; /* Add padding for better spacing */
+}
+
+.hero article img {
+    float: right;
+}
+
+.hero article p {
+    margin: 0;
+    color: #333;
+}
