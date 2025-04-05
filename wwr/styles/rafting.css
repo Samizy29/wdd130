@@ -50,8 +50,6 @@ a {
 
 .hero article {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.8); /* Light background with transparency */
-    padding: 10px; /* Add padding for better spacing */
 }
 
 .hero article img {
@@ -59,6 +57,5 @@ a {
 }
 
 .hero article p {
-    margin: 0;
-    color: #333;
+    background-color: var(--background-color);
 }
