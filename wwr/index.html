@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Oni Samuel | WDD130 | Web Development Fundamentals | BYU-Idaho">
     <meta name="author" content="Oni Samuel">
-    <title> Oni Samuel | WDD130 </title>
+    <title>White Water Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -14,48 +14,70 @@
     <header>
         <img src="images/logo.jpeg" alt="logo">
         <nav>
-        <ul>
-            <li>
-            <a href="index.html">Home</a>
-            </li>
-            <li>
-            <a href="about.html">About</a>
-            </li>
-            <li>
-            <a href="trips.html">Trips</a>
-            </li>
-            <li>
-            <a href="contact.html">Contact</a>
-            </li>
-        </ul>
-        </nav> 
-</header>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-        <h1>Oni Samuel | wdd130</h1>
-        <img src="images/images/me.jpeg" alt="Hello, My name is Oni Samuel" width="200">
-        <p>Hello, My name is Oni Samuel, I'm from Nigeria, I enjoy exploring new skills.</p>
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="images/river adventure.jpg" alt="White Water Rafting Adventure">
+            <h1>Experience the Thrill of White Water Rafting!</h1>
+            <article>
+                <p>Join us for an unforgettable rafting experience where adventure meets nature.</p>
+                <img src="images/rafting-1.jpeg" alt="Rafting Action">
+            </article>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="call-to-action">
+            <h2>Ready for an Adventure?</h2>
+            <p>Check out our available rafting trips and choose your perfect adventure.</p>
+            <a class="cta-button" href="trips.html">Explore Trips</a>
+        </section>
+
+        <!-- Newsletter Signup -->
+        <section class="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <!-- Grid Layout Section -->
+        <section class="grid-layout">
+            <div class="grid-item">
+                <img src="images/race and competition.jpg" alt="River Adventure">
+                <h3>Our Purpose</h3>
+                <p>We create exciting and safe river rafting experiences for adventurers of all levels.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/safety gear.jpg" alt="Guided Rafting">
+                <h3>What We Offer</h3>
+                <p>Professional guides, all necessary gear, and beautiful river routes to choose from.</p>
+            </div>
+        </section>
     </main>
-
-    <aside>
-        <h2>Nigeria</h2>
-        <img src="images/images/nigeria.jpg" alt="A beautiful view of Nigeria" width="200">
-        <p>Nigeria is a country in West Africa, known for its rich culture, diverse landscapes, and vibrant economy.</p>
-    </aside>
-
-    <footer> 
+    
+    <footer>
         <div class="footer-container">
             <p>&copy; 2025 White Water Rafting. Designed by Oni Samuel.</p>
             <nav>
-            <a href="https://facebook.com">
-            <img src="images/Facebook_logo.jpeg" alt="Facebook">
-            </a>
-            <a href="https://instagram.com">
-            <img src="images/instagram_logo.jpeg" alt="Instagram">
-            </a>
-            <a href="https://twitter.com">
-            <img src="images/Twitter-logo.jpeg" alt="Twitter">
-            </a>
-            <a href="images/t">View-wireframe</a>
+                <a href="https://facebook.com"><img src="images/Facebook_logo.jpeg" alt="Facebook"></a>
+                <a href="https://instagram.com"><img src="images/instagram_logo.jpeg" alt="Instagram"></a>
+                <a href="https://twitter.com"><img src="images/Twitter-logo.jpeg" alt="Twitter"></a>
+                <a href="images/wireframe.png">View Wireframe</a>
             </nav>
         </div>
     </footer>
