@@ -1,0 +1,363 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #f1c40f;
+    --background-color: #beb7b7ac;
+    --text-color1: #333;
+    --accent1-color: #F0F8FF;
+    --color7:  #0909DB;
+    --color9: #ddd;
+    --color: white;
+    --color8: #f39c12;
+    --color6: #2C2CAE;
+    --color4: #000000;
+    --accent2-color: #E6E6E6;
+    --color5: #ccc;
+    --a-hover: #3480b2; 
+    --font-primary: 'Poppins', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--font-primary);
+    background-color: var(--background-color);
+    color: var(--text-color1);
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 20px;  
+}
+h2{
+    padding: 10px;
+}
+header img {
+    width: 70px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: var(--color);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--a-hover);
+}
+img {
+    max-width: 100%;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: var(--background-color);
+}
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: whitesmoke;    
+}
+
+.hero article {
+    position: absolute;
+    border-radius: 10px;
+    padding: 20px;
+    top: 20%;
+    background-color: var(--background-color);
+    width: 95%;
+    right: 3%;  
+    opacity: 0.8;
+}
+.hero article img {
+    float: right;
+    max-width: 220px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.history {
+    padding: 20px;
+    background-color: var(--color3);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.history h2 {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    margin-bottom: 20px; 
+    grid-column: 1/4;
+}
+
+.history p {
+    font-size: 1.2rem;
+}
+.adventure {
+    margin: 40px;
+}
+.adventure-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+.adventure-img figure {
+    flex: 5;
+    text-align: center;
+}
+
+.adventure figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.contact-info {
+    background-color: var(--color3);
+    padding: 10px;
+}
+.contact-info h2 {
+    color: var(--secondary-color);
+    padding: 10px;
+    font-size: 2rem;
+}
+.contact-info p{
+    padding: 5px;
+    font-size: 1.2rem;
+}
+.contact-info img {
+    width: 2rem;
+    height: auto;
+    top: 5rem;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    align-items: center;
+}
+.team-images {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin: 20px 0;
+}
+
+.team-images figure {
+    margin: 15px;
+    text-align: center;
+    max-width: 150px; 
+}
+
+.team-images img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 50%; 
+}
+
+.team-images figcaption {
+    margin-top: 5px;
+    font-weight: bold;
+}
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px var(--color4);
+}
+fieldset {
+    border: 1px solid var(--color3);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+label {
+    display: block; 
+    font-size: 0.9rem;  
+    padding: 5px;
+
+}
+
+label, input, button, select, textarea {
+    font-family: 'Poppins', sans-serif;
+}
+input, select, textarea {
+    padding: 5px;
+    font-size: 14px;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid var(--color5); 
+    border-radius: 5px; 
+    font-size: 1rem; 
+}
+button {
+    padding: 10px;
+    background-color: var(--color6);
+    color: var(--color);
+    margin: 2rem;
+    border-radius: 20px solid var(--color4);
+    font-size: 20px;
+}
+button:hover {
+    background-color: var(--color7);
+}
+.newsletter {
+    padding: 1rem;
+    background-color: var(--color2);
+}
+.newsletter h2 {
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+.column2 {
+    grid-template-columns: 1fr 1fr;
+}
+input{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid var(--color3);
+    border-radius: 5px;
+    align-items: center;
+}
+.call-to-action {
+    text-align: center;
+    margin: 40px 0;
+    padding: 10px;
+}
+
+.call-to-action h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.call-to-action p {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: var(--color8);
+}
+.trip-descriptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: rgb(227, 224, 224);
+}
+
+.trip-descriptions h2 {
+    font-size: 2rem; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+.trip {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    margin: 20px; 
+    padding: 20px;
+    border: 1px solid var(--color9);
+    border-radius: 10px;
+    text-align: center; 
+}
+
+.trip img {
+    width: 80%; 
+    max-width: 200px; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-right: 10px; 
+}
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat (auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: var(--color);
+    border: 1px solid var(--color3);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.grid-item h3 {
+    margin: 10px 0;
+    color: var(--primary-color);
+}
+footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 30px;
+    background-color: var(--primary-color);
+}
+footer p {
+    font-size: 1.5rem;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+nav {
+    display: flex; 
+    align-items: center; 
+}
+
+nav a img {
+    width: 40px;
+    margin-left: 20px; 
+}

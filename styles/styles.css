@@ -1,0 +1,55 @@
+/* Navigation bar styling */
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+/* Heading 1 styling */
+h1 {
+    color: darkblue;
+}
+
+/* Image styling for images inside the main element */
+main img {
+    width: 200px;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+/* Paragraph styling */
+p {
+    padding: 0px;
+}
+
+/* Styling for the aside element */
+aside {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid darkblue;
+    padding: 15px;
+    background-color: lightblue;
+    color: darkblue;
+}
+
+/* Styling for images inside the aside element */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Styling for the footer element */
+footer {
+    margin-top: 20px;
+    border-top: 1px solid darkblue;
+    text-align: center;
+}
